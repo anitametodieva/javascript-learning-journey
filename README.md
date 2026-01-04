@@ -1,10 +1,43 @@
-# SoftUni JavaScript Exercises
+# 👩‍💻 Anita Metodieva
 
-This repository contains my solutions to exercises from the **Programming Fundamentals with JavaScript** course at SoftUni.  
-All solutions are written in **JavaScript** and are uploaded as part of my learning and practice journey.
+Junior JavaScript Developer in training, currently studying at SoftUni.
 
-## Technologies Used
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+I am building a strong foundation in programming and preparing for JavaScript Advanced.
+
+---
+
+## 📚 Courses
+
+- JavaScript Basics – completed 
+- JavaScript Fundamentals – completed
+- JavaScript Advanced – starting January 2026
+
+---
+
+## 🗂 Repository Structure
+
+Fundamentals-JS/
+- Basic Syntax  
+- Data Types & Variables  
+- Arrays  
+- Functions  
+- Objects & Classes  
+- Text Processing  
+- Associative Arrays  
+
+Advanced-JS – coming soon
+
+---
+
+## 🛠 Technologies
+
+- JavaScript  
+- Git & GitHub  
+- Node.js (basics)  
+- VS Code  
+
+---
+
+## 🎯 Goal
+
+To start my career as a Junior JavaScript / Web Developer and continue growing in the IT field.
