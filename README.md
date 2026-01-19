@@ -25,7 +25,7 @@ Fundamentals-JS/
 - Text Processing  
 - Associative Arrays  
 
-- JavaScript-Advanced/
+JavaScript-Advanced/
   - Arrays and Nested Arrays
   - Objects and Composition
   - DOM Introduction
