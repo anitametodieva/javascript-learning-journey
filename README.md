@@ -10,7 +10,7 @@ I am building a strong foundation in programming and preparing for JavaScript Ad
 
 - JavaScript Basics – completed 
 - JavaScript Fundamentals – completed
-- JavaScript Advanced – starting January 2026
+- JavaScript Advanced – in progress (January 2026)
 
 ---
 
@@ -25,7 +25,13 @@ Fundamentals-JS/
 - Text Processing  
 - Associative Arrays  
 
-Advanced-JS – coming soon
+- JavaScript-Advanced/
+  - Arrays and Nested Arrays
+  - Objects and Composition
+  - DOM Introduction
+  - DOM Manipulations and Events
+  - Advanced Functions
+  - Unit Testing
 
 ---
 
