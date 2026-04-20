@@ -10,7 +10,7 @@ I am building a strong foundation in programming and preparing for JavaScript Ad
 
 - JavaScript Basics – completed 
 - JavaScript Fundamentals – completed
-- JavaScript Advanced – in progress (January 2026)
+- JavaScript Advanced – completed
 
 ---
 
