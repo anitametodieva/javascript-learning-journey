@@ -2,15 +2,16 @@
 
 Junior JavaScript Developer in training, currently studying at SoftUni.
 
-I am building a strong foundation in programming and preparing for JavaScript Advanced.
+I have completed several JavaScript courses at SoftUni and I am currently continuing my journey with Web Core.
 
 ---
 
-## 📚 Courses
+📚 Courses
 
-- JavaScript Basics – completed 
+- JavaScript Basics – completed
 - JavaScript Fundamentals – completed
 - JavaScript Advanced – completed
+- JavaScript Applications – completed
 
 ---
 
@@ -26,18 +27,32 @@ Fundamentals-JS/
 - Associative Arrays  
 
 JavaScript-Advanced/
-  - Arrays and Nested Arrays
-  - Objects and Composition
-  - DOM Introduction
-  - DOM Manipulations and Events
-  - Advanced Functions
-  - Unit Testing
+- Arrays and Nested Arrays
+- Objects and Composition
+- DOM Introduction
+- DOM Manipulations and Events
+- Advanced Functions
+- Unit Testing
+- Classes
+- Prototypes and Inheritance
+
+JavaScript-Applications/
+- HTTP and REST Services
+- Asynchronous Programming
+- Remote Data and Authentication
+- Single Page Applications
+- Architecture and Testing
+- Client Side Rendering
+- Routing
+- Modular Applications
 
 ---
 
 ## 🛠 Technologies
 
-- JavaScript  
+- JavaScript
+- DOM Manipulation
+- REST APIs
 - Git & GitHub  
 - Node.js (basics)  
 - VS Code  
