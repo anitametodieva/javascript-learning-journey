@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #555;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+    width: 60px;
+    height: 60px;
+
+    background-color: #eee;
+    color: black;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 24px;
+}

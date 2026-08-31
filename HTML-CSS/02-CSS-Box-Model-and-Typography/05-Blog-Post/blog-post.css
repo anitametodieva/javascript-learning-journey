@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+.blog-post {
+    width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.blog-post h1 {
+    margin-top: 0;
+    font-size: 32px;
+}
+
+.blog-post h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.blog-post p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.blog-post .subtitle {
+    font-size: 18px;
+}
+
+.blog-post footer {
+    margin-top: 30px;
+    font-size: 14px;
+}
