@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+h1 {
+    margin: 0 0 35px;
+    font-size: 28px;
+}
+
+.tree {
+    font-size: 14px;
+}
+
+
+/* =========================
+   DETAILS + BUTTONS
+   ========================= */
+
+details {
+    position: relative;
+}
+
+summary {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    height: 25px;
+
+    list-style: none;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: "+";
+
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+
+    margin-right: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #639e6d;
+    color: white;
+
+    font-size: 13px;
+    line-height: 1;
+
+    position: relative;
+    z-index: 2;
+}
+
+details[open] > summary::before {
+    content: "−";
+}
+
+
+/* =========================
+   GIANT PLANETS -> CHILDREN
+   ========================= */
+
+.branch {
+    position: relative;
+
+    /* center of Giant planets circle */
+    margin-left: 10px;
+
+    /* Gas giants starts 32px to the right */
+    padding-left: 22px;
+}
+
+
+/* main vertical line */
+.branch::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: -13px;
+    bottom: 12px;
+
+    width: 4px;
+
+    background: #dedede;
+
+    border-radius: 3px;
+}
+
+
+/* horizontal line -> Gas giants */
+.branch > details:first-child > summary::after {
+    content: "";
+
+    position: absolute;
+
+    left: -22px;
+    top: 10px;
+
+    width: 22px;
+    height: 4px;
+
+    background: #dedede;
+}
+
+
+/* space between Saturn and Ice giants */
+.ice {
+    margin-top: 25px;
+}
+
+
+/* rounded connection -> Ice giants */
+.ice > summary::after {
+    content: "";
+
+    position: absolute;
+
+    left: -22px;
+    top: 0;
+
+    width: 22px;
+    height: 12px;
+
+    border-left: 4px solid #dedede;
+    border-bottom: 4px solid #dedede;
+
+    border-bottom-left-radius: 7px;
+}
+
+
+/* =========================
+   GAS GIANTS -> PLANETS
+   ========================= */
+
+.leaves {
+    position: relative;
+
+    /* center under Gas giants circle */
+    margin-left: 10px;
+
+    /* distance from line to text */
+    padding-left: 27px;
+}
+
+
+/* vertical line under Gas giants */
+.leaves::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: -13px;
+    bottom: 12px;
+
+    width: 4px;
+
+    background: #dedede;
+
+    border-radius: 3px;
+}
+
+
+/* Jupiter / Saturn */
+.leaf {
+    position: relative;
+
+    height: 25px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* horizontal connection -> Jupiter */
+.leaf:not(.last-leaf)::before {
+    content: "";
+
+    position: absolute;
+
+    left: -27px;
+    top: 10px;
+
+    width: 24px;
+    height: 4px;
+
+    background: #dedede;
+}
+
+
+/* rounded connection -> Saturn */
+.last-leaf::before {
+    content: "";
+
+    position: absolute;
+
+    left: -27px;
+    top: 0;
+
+    width: 20px;
+    height: 12px;
+
+    border-left: 4px solid #dedede;
+    border-bottom: 4px solid #dedede;
+
+    border-bottom-left-radius: 7px;
+}

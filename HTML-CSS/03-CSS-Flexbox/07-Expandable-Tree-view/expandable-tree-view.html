@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="expandable-tree-view.css">
+    <title>Tree View</title>
+</head>
+
+<body>
+
+    <h1>Collapsable & expandable tree view in HTML & CSS only</h1>
+
+    <div class="tree">
+
+        <details open class="root">
+            <summary>Giant planets</summary>
+
+            <div class="branch">
+
+                <details open>
+                    <summary>Gas giants</summary>
+
+                    <div class="leaves">
+                        <div class="leaf">Jupiter</div>
+                        <div class="leaf last-leaf">Saturn</div>
+                    </div>
+                </details>
+
+                <details class="ice">
+                    <summary>Ice giants</summary>
+
+                    <div class="leaves">
+                        <div class="leaf">Uranus</div>
+                        <div class="leaf last-leaf">Neptune</div>
+                    </div>
+                </details>
+
+            </div>
+
+        </details>
+
+    </div>
+
+</body>
+
+</html>
